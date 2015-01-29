@@ -6,10 +6,10 @@ import (
 	"github.com/miquella/rethinkdb_session_store"
 )
 
-// RedisStore is an interface that represents a Cookie based storage
+// RethinkStore is an interface that represents a Cookie based storage
 // for Sessions.
 type RethinkStore interface {
-	// Store is an embedded interface so that RedisStore can be used
+	// Store is an embedded interface so that RethinkStore can be used
 	// as a session store.
 	Store
 	// Options sets the default options for each session stored in this
